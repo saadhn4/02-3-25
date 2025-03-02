@@ -1,0 +1,25 @@
+1. findById(userInput) //get specific id 
+2. findByIdAndUpdate (userInput, userData)
+2. findByIdAndDelete (userInput)
+
+//after server is ready
+1. add deployment 4 lines 
+2. cors 
+
+--cors setup 
+
+npm i cors
+app.use(cors({
+  origin: ["http://localost:5173", "https://domain-ur-deploying-on"]
+})) //before app.use(express.json())
+
+--Back to React 
+
+1. Usual vite setup 
+2. in src , create 2 folders -> components and pages 
+3. in pages create 2 folders -> public and user 
+4. inside public -> Register.jsx, login.jsx
+5. Come back to App.jsx
+6. do oruting
+
+components - navbar import navbar in register then in return <Navbar /> on top 
