@@ -10,7 +10,7 @@
 
 npm i cors
 app.use(cors({
-  origin: ["http://localost:5173", "https://domain-ur-deploying-on"]
+ origin: ["http://locahost:5173", "http://127.0.0.1:5173", "domain-deployint"],
 })) //before app.use(express.json())
 
 --Back to React 
